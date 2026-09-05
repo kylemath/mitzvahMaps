@@ -1,0 +1,14 @@
+{
+  "id": "mitz",
+  "title": "Mitz",
+  "oneLiner": "Interactive web app for organizing and exploring the **613 mitzvot** in order of appearance in the Torah.",
+  "kind": "project",
+  "status": "active",
+  "screenshot": "./screenshot.png",
+  "server": {
+    "type": "static",
+    "port": 8080,
+    "openPath": "/",
+    "autoStart": false
+  }
+}

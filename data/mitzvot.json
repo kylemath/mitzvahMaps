@@ -1,0 +1,5112 @@
+{
+  "meta": {
+    "total": 613,
+    "books": [
+      "Bereshit",
+      "Shemot",
+      "Vayikra",
+      "Bamidbar",
+      "Devarim"
+    ],
+    "bookEn": {
+      "Bereshit": "Genesis",
+      "Shemot": "Exodus",
+      "Vayikra": "Leviticus",
+      "Bamidbar": "Numbers",
+      "Devarim": "Deuteronomy"
+    },
+    "parshiot": [
+      {
+        "book": "Bereshit",
+        "parsha": "Bereshit",
+        "bookEn": "Genesis"
+      },
+      {
+        "book": "Bereshit",
+        "parsha": "Lech Lecha",
+        "bookEn": "Genesis"
+      },
+      {
+        "book": "Bereshit",
+        "parsha": "Vayishlach",
+        "bookEn": "Genesis"
+      },
+      {
+        "book": "Shemot",
+        "parsha": "Bo",
+        "bookEn": "Exodus"
+      },
+      {
+        "book": "Shemot",
+        "parsha": "Beshalach",
+        "bookEn": "Exodus"
+      },
+      {
+        "book": "Shemot",
+        "parsha": "Yitro",
+        "bookEn": "Exodus"
+      },
+      {
+        "book": "Shemot",
+        "parsha": "Mishpatim",
+        "bookEn": "Exodus"
+      },
+      {
+        "book": "Shemot",
+        "parsha": "Terumah",
+        "bookEn": "Exodus"
+      },
+      {
+        "book": "Shemot",
+        "parsha": "Tetzaveh",
+        "bookEn": "Exodus"
+      },
+      {
+        "book": "Shemot",
+        "parsha": "Ki Tisa",
+        "bookEn": "Exodus"
+      },
+      {
+        "book": "Shemot",
+        "parsha": "Vayakhel",
+        "bookEn": "Exodus"
+      },
+      {
+        "book": "Vayikra",
+        "parsha": "Vayikra",
+        "bookEn": "Leviticus"
+      },
+      {
+        "book": "Vayikra",
+        "parsha": "Tzav",
+        "bookEn": "Leviticus"
+      },
+      {
+        "book": "Vayikra",
+        "parsha": "Shmini",
+        "bookEn": "Leviticus"
+      },
+      {
+        "book": "Vayikra",
+        "parsha": "Tazria",
+        "bookEn": "Leviticus"
+      },
+      {
+        "book": "Vayikra",
+        "parsha": "Metzora",
+        "bookEn": "Leviticus"
+      },
+      {
+        "book": "Vayikra",
+        "parsha": "Achrei Mot",
+        "bookEn": "Leviticus"
+      },
+      {
+        "book": "Vayikra",
+        "parsha": "Kedoshim",
+        "bookEn": "Leviticus"
+      },
+      {
+        "book": "Vayikra",
+        "parsha": "Emor",
+        "bookEn": "Leviticus"
+      },
+      {
+        "book": "Vayikra",
+        "parsha": "Behar",
+        "bookEn": "Leviticus"
+      },
+      {
+        "book": "Vayikra",
+        "parsha": "Bechukotai",
+        "bookEn": "Leviticus"
+      },
+      {
+        "book": "Bamidbar",
+        "parsha": "Nasso",
+        "bookEn": "Numbers"
+      },
+      {
+        "book": "Bamidbar",
+        "parsha": "Beha'alotcha",
+        "bookEn": "Numbers"
+      },
+      {
+        "book": "Bamidbar",
+        "parsha": "Sh'lach",
+        "bookEn": "Numbers"
+      },
+      {
+        "book": "Bamidbar",
+        "parsha": "Korach",
+        "bookEn": "Numbers"
+      },
+      {
+        "book": "Bamidbar",
+        "parsha": "Chukat",
+        "bookEn": "Numbers"
+      },
+      {
+        "book": "Bamidbar",
+        "parsha": "Pinchas",
+        "bookEn": "Numbers"
+      },
+      {
+        "book": "Bamidbar",
+        "parsha": "Matot",
+        "bookEn": "Numbers"
+      },
+      {
+        "book": "Bamidbar",
+        "parsha": "Masei",
+        "bookEn": "Numbers"
+      },
+      {
+        "book": "Devarim",
+        "parsha": "Devarim",
+        "bookEn": "Deuteronomy"
+      },
+      {
+        "book": "Devarim",
+        "parsha": "Vaetchanan",
+        "bookEn": "Deuteronomy"
+      },
+      {
+        "book": "Devarim",
+        "parsha": "Eikev",
+        "bookEn": "Deuteronomy"
+      },
+      {
+        "book": "Devarim",
+        "parsha": "Re'eh",
+        "bookEn": "Deuteronomy"
+      },
+      {
+        "book": "Devarim",
+        "parsha": "Shoftim",
+        "bookEn": "Deuteronomy"
+      },
+      {
+        "book": "Devarim",
+        "parsha": "Ki Teitzei",
+        "bookEn": "Deuteronomy"
+      },
+      {
+        "book": "Devarim",
+        "parsha": "Ki Tavo",
+        "bookEn": "Deuteronomy"
+      },
+      {
+        "book": "Devarim",
+        "parsha": "Vayeilech",
+        "bookEn": "Deuteronomy"
+      }
+    ]
+  },
+  "mitzvot": [
+    {
+      "id": 1,
+      "text": "The commandment of procreation",
+      "parsha": "Bereshit",
+      "book": "Bereshit",
+      "bookEn": "Genesis",
+      "type": "positive"
+    },
+    {
+      "id": 2,
+      "text": "The commandment to circumcise",
+      "parsha": "Lech Lecha",
+      "book": "Bereshit",
+      "bookEn": "Genesis",
+      "type": "positive"
+    },
+    {
+      "id": 3,
+      "text": "Not to eat the sciatic nerve",
+      "parsha": "Vayishlach",
+      "book": "Bereshit",
+      "bookEn": "Genesis",
+      "type": "negative"
+    },
+    {
+      "id": 4,
+      "text": "The commandment of sanctifying the new month",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 5,
+      "text": "The commandment to slaughter the Pesach sacrifice",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 6,
+      "text": "The commandment of eating the meat of the Pesach sacrifice",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 7,
+      "text": "To not eat the Pesach sacrifice uncooked or boiled",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 8,
+      "text": "To not leave from the meat of the Pesach sacrifice",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 9,
+      "text": "The commandment of disposing of chamets",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 10,
+      "text": "The commandment of eating matsah",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 11,
+      "text": "That chamets not be found in our possession on Pesach",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 12,
+      "text": "To not eat from anything that has chamets in it",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 13,
+      "text": "That we not feed of the Pesach sacrifice to an apostate Jew",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 14,
+      "text": "That we not feed of the Pesach sacrifice to a stranger or a resident",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 15,
+      "text": "Not to take out from the meat of the Pesach offering outside",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 16,
+      "text": "To not break a bone from the Pesach sacrifice",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 17,
+      "text": "That an uncircumcised man not eat from the Pesach sacrifice",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 18,
+      "text": "The commandment of sanctifying the firstborn in the Land of Israel",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 19,
+      "text": "To not eat chamets on Pesach",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 20,
+      "text": "That chamets not be found to us on Pesach",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 21,
+      "text": "The commandment to recount the exodus from Egypt",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 22,
+      "text": "The commandment of the redemption of a firstborn donkey",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 23,
+      "text": "The commandment of beheading a firstborn donkey",
+      "parsha": "Bo",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 24,
+      "text": "That we should not go outside of the boundary on Shabbat",
+      "parsha": "Beshalach",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 25,
+      "text": "The commandment of belief in God",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 26,
+      "text": "That we not believe in a god besides God alone",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 27,
+      "text": "To not make a statue",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 28,
+      "text": "To not bow down to idolatry",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 29,
+      "text": "To not worship idolatry in that which is its way to be worshiped",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 30,
+      "text": "To not swear in vain",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 31,
+      "text": "The commandment of the sanctification of Shabbat with words",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 32,
+      "text": "To not do work on Shabbat",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 33,
+      "text": "The commandment to honor father and mother",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 34,
+      "text": "To not kill the innocent",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 35,
+      "text": "To not reveal the nakedness of a man's wife",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 36,
+      "text": "To not steal a soul of Israel",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 37,
+      "text": "To not testify falsely",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 38,
+      "text": "To not covet",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 39,
+      "text": "Not to make the form of a man, even for decoration",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 40,
+      "text": "To not build with hewn stones",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 41,
+      "text": "To not take steps on the altar",
+      "parsha": "Yitro",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 42,
+      "text": "The commandment of the law of a Hebrew slave",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 43,
+      "text": "The commandment of designation of a Hebrew bondwoman",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 44,
+      "text": "The commandment of redemption of a Hebrew bondwoman",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 45,
+      "text": "That the one who acquires the Hebrew bondwoman from the father not sell her",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 46,
+      "text": "Not to reduce her flesh, covering and time period",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 47,
+      "text": "The commandment on the court to kill with strangulation one who is liable",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 48,
+      "text": "Not to strike father and mother",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 49,
+      "text": "The commandment of the laws of penalties",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 50,
+      "text": "The commandment on the court to kill with the sword one who is liable",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 51,
+      "text": "The commandment on the court to judge the damages of an animal",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 52,
+      "text": "Not to eat from the meat of an ox that was stoned",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 53,
+      "text": "The commandment on the court to judge the damages of a pit",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 54,
+      "text": "The commandment on the court to judge a thief with repayment or the death penalty",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 55,
+      "text": "The commandment on the court to judge concerning damages of destruction",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 56,
+      "text": "The commandment on the court to judge damages from fire",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 57,
+      "text": "The commandment on the court to judge the case of an unpaid guardian",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 58,
+      "text": "The commandment on the court to judge the case of a plaintiff and a defendant",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 59,
+      "text": "The commandment on the court to judge the case of one who takes a wage and of a renter",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 60,
+      "text": "The commandment to judge the case of the borrower",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 61,
+      "text": "The commandment on the court to judge the case of a seducer",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 62,
+      "text": "To not keep a witch alive",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 63,
+      "text": "To not oppress the convert with words",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 64,
+      "text": "To not oppress the convert regarding money",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 65,
+      "text": "To not abuse the orphan and the widow",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 66,
+      "text": "The commandment of lending to the poor person",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 67,
+      "text": "That we not demand the debt of a poor person that does not have with what to pay",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 68,
+      "text": "That we not give a hand between the borrower and the creditor with interest",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 69,
+      "text": "To not curse the judge",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 70,
+      "text": "The negative commandment of \"blessing\" the Name",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 71,
+      "text": "To not curse a chieftain",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 72,
+      "text": "To not skip in the laws of produce",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 73,
+      "text": "To not eat a torn animal",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 74,
+      "text": "To not hear the claim of a litigant when it is not in front of his fellow litigant",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 75,
+      "text": "Not to have a sinner testify",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 76,
+      "text": "Not to incline after the many in capital punishments because of one",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 77,
+      "text": "That the one who advocated innocence at the beginning of capital cases not advocate guilt",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 78,
+      "text": "The commandment of inclining towards the many",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 79,
+      "text": "To not have mercy upon a poor person in his case",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 80,
+      "text": "The commandment of removing a burden",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 81,
+      "text": "To not tip the judgment of an evildoer",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 82,
+      "text": "To not conclude the judgment by estimation",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 83,
+      "text": "To not take a bribe",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 84,
+      "text": "The commandment of the releasing of lands",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 85,
+      "text": "The commandment to rest on Shabbat",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 86,
+      "text": "To not swear by idolatry",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 87,
+      "text": "To not entice the Children of Israel towards idolatry",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 88,
+      "text": "The commandment of celebration on the festivals",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 89,
+      "text": "That we not slaughter the lamb of the Pesach offering on the fourteenth of Nissan while chamets is still in our possession",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 90,
+      "text": "To not leave the entrails of the Pesach sacrifice to stay overnight",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 91,
+      "text": "The commandment of bringing the first fruits",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 92,
+      "text": "To not cook meat in milk",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 93,
+      "text": "To not make a covenant with the seven nations and likewise with any worshiper of idolatry",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 94,
+      "text": "To not have worshipers of idols dwell in our Land",
+      "parsha": "Mishpatim",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 95,
+      "text": "The commandment of building the Choice House",
+      "parsha": "Terumah",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 96,
+      "text": "To not remove the poles of the ark from it",
+      "parsha": "Terumah",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 97,
+      "text": "The commandment of arranging the bread of display and the frankincense",
+      "parsha": "Terumah",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 98,
+      "text": "The commandment of arranging lights in the Temple",
+      "parsha": "Tetzaveh",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 99,
+      "text": "The commandment of wearing the priestly clothes",
+      "parsha": "Tetzaveh",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 100,
+      "text": "That the breastplate not move from on top of the apron",
+      "parsha": "Tetzaveh",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 101,
+      "text": "To not tear the coat of the priests",
+      "parsha": "Tetzaveh",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 102,
+      "text": "The commandment of eating the meat of sin offerings and guilt offerings",
+      "parsha": "Tetzaveh",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 103,
+      "text": "The commandment of burning the incense",
+      "parsha": "Tetzaveh",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 104,
+      "text": "To not burn incense and not to bring sacrifices upon the gold altar",
+      "parsha": "Tetzaveh",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 105,
+      "text": "The commandment of the giving of the half shekel during the year",
+      "parsha": "Ki Tisa",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 106,
+      "text": "The commandment of sanctifying the hands and the feet at the time of the service",
+      "parsha": "Ki Tisa",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 107,
+      "text": "The commandment of anointing the high priest and the kings of the House of David with anointing oil",
+      "parsha": "Ki Tisa",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 108,
+      "text": "To not rub a foreigner with anointing oil",
+      "parsha": "Ki Tisa",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 109,
+      "text": "To not make oil according to the specification of the anointing oil",
+      "parsha": "Ki Tisa",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 110,
+      "text": "To not make incense according to the specification of the incense",
+      "parsha": "Ki Tisa",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 111,
+      "text": "To not eat and drink a gift to idol worship",
+      "parsha": "Ki Tisa",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 112,
+      "text": "The commandment of the land resting on the seventh year",
+      "parsha": "Ki Tisa",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "positive"
+    },
+    {
+      "id": 113,
+      "text": "To not eat meat with milk",
+      "parsha": "Ki Tisa",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 114,
+      "text": "That the court not administer a death sentence on the Shabbat",
+      "parsha": "Vayakhel",
+      "book": "Shemot",
+      "bookEn": "Exodus",
+      "type": "negative"
+    },
+    {
+      "id": 115,
+      "text": "The commandment of the procedure of the burnt offering",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 116,
+      "text": "The commandment of the meal offering",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 117,
+      "text": "To not offer leaven or honey",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 118,
+      "text": "To not offer a sacrifice without salt",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 119,
+      "text": "The commandment of salting the sacrifice",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 120,
+      "text": "The commandment of the sacrifice of the court if they erred in instruction",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 121,
+      "text": "The commandment of a sin offering for an individual who sinned inadvertently in a commandment for which we are liable excision",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 122,
+      "text": "The commandment of testimony",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 123,
+      "text": "The commandment of the sacrifice that varies up and down",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 124,
+      "text": "Not to sever a fowl sin offering",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 125,
+      "text": "To not place olive oil in the meal offering of a sinner",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 126,
+      "text": "To not put frankincense in the meal offering of a sinner",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 127,
+      "text": "The commandment of the addition of a fifth for one who eats from the consecrated or misappropriates it",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 128,
+      "text": "The commandment of the sacrifice of an undetermined guilt offering",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 129,
+      "text": "The commandment of a definite guilt offering",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 130,
+      "text": "The commandment of returning theft",
+      "parsha": "Vayikra",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 131,
+      "text": "The commandment of the lifting of the ashes",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 132,
+      "text": "The commandment of lighting fire on the altar every day",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 133,
+      "text": "To not extinguish the fire upon the altar",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 134,
+      "text": "The commandment of eating the remainders of the meal offering",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 135,
+      "text": "To not make the remainders of the meal offering chamets",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 136,
+      "text": "The commandment of the daily meal offering of the high priest",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 137,
+      "text": "To not eat the meal offering of the priest",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 138,
+      "text": "The commandment of the procedure of the sin offering",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 139,
+      "text": "To not eat from the meat of the sin offerings processed inside",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 140,
+      "text": "The commandment of the procedure of the guilt offering",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 141,
+      "text": "The commandment of the procedure of the sacrifice of the peace offerings",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 142,
+      "text": "To not leave over meat from the thanksgiving sacrifice",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 143,
+      "text": "The commandment of the burning of the remnant of the sacrifices",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 144,
+      "text": "To not eat piggul",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 145,
+      "text": "To not eat meat of the sacrifices that has become impure",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 146,
+      "text": "The commandment of burning meat of sacrifices that has become impure",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 147,
+      "text": "That we not eat forbidden fat",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 148,
+      "text": "That we not eat the blood of a domesticated beast, a wild animal or a bird",
+      "parsha": "Tzav",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 149,
+      "text": "That the priests not enter the Temple with grown hair",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 150,
+      "text": "That the priests not enter the Temple with torn clothes",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 151,
+      "text": "That the priests not go out from the Temple at the time of the service",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 152,
+      "text": "To not enter the Temple intoxicated, and likewise to not give a ruling intoxicated",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 153,
+      "text": "The command of checking the signs of a beast or animal",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 154,
+      "text": "To not eat an impure beast or animal",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 155,
+      "text": "The commandment to check the signs of fish",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 156,
+      "text": "To not eat impure fish",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 157,
+      "text": "To not eat impure fowl",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 158,
+      "text": "The commandment of checking the signs of grasshoppers",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 159,
+      "text": "The commandment of the impurity of the eight swarming creatures",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 160,
+      "text": "The commandment of the matter of impurity of foods",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 161,
+      "text": "The commandment of the matter of the impurity of a carcass",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 162,
+      "text": "To not eat the swarming creature of the ground",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 163,
+      "text": "To not eat species of minute swarming creatures born in seeds and fruits",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 164,
+      "text": "To not eat of the swarming creatures of the waters",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 165,
+      "text": "To not eat of swarming creatures that exist from decay",
+      "parsha": "Shmini",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 166,
+      "text": "The commandment of the matter of the impurity of a woman who has given birth",
+      "parsha": "Tazria",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 167,
+      "text": "That one impure not eat consecrated foods",
+      "parsha": "Tazria",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 168,
+      "text": "The law of the sacrifice of the woman that has given birth",
+      "parsha": "Tazria",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 169,
+      "text": "The commandment of the matter of the impurity of a metsora",
+      "parsha": "Tazria",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 170,
+      "text": "To not shave the hair of the scab",
+      "parsha": "Tazria",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 171,
+      "text": "The practice of wildness and rending of a metsora and all who render a person impure",
+      "parsha": "Tazria",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 172,
+      "text": "The commandment of the matter of ailments of clothing",
+      "parsha": "Tazria",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 173,
+      "text": "The commandment of purification from tsaraat that it be with certain species",
+      "parsha": "Metzora",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 174,
+      "text": "The commandment of shaving the metsora on the seventh day",
+      "parsha": "Metzora",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 175,
+      "text": "The commandment of immersion for the impure",
+      "parsha": "Metzora",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 176,
+      "text": "The law of the commandment of a metsora when he is healed from his tsaraat",
+      "parsha": "Metzora",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 177,
+      "text": "The commandment of the matter of the impurity of a house that has an ailment",
+      "parsha": "Metzora",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 178,
+      "text": "The commandment of the matter of impurity of a zav to be impure and to render impure",
+      "parsha": "Metzora",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 179,
+      "text": "The commandment of the sacrifice of the zav when he is healed from his discharge",
+      "parsha": "Metzora",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 180,
+      "text": "The commandment of the matter of the impurity of semen, which is impure and renders impure",
+      "parsha": "Metzora",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 181,
+      "text": "The commandment of the matter of the impurity of the menstruant, that is impure and renders impure",
+      "parsha": "Metzora",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 182,
+      "text": "The commandment of the matter of the impurity of the zavah, that is impure and renders impure",
+      "parsha": "Metzora",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 183,
+      "text": "The commandment of the sacrifice of the zavah when she is healed from her discharge",
+      "parsha": "Metzora",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 184,
+      "text": "That the priests not enter at any time into the Temple, and all the more so, non priests",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 185,
+      "text": "The commandment of the service of Yom Kippur",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 186,
+      "text": "Not to slaughter consecrated animals outside of the Temple yard",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 187,
+      "text": "The commandment of covering the blood",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 188,
+      "text": "To not marry one of all the sexual prohibitions",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 189,
+      "text": "To not reveal the nakedness of the father",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 190,
+      "text": "To not reveal the nakedness of the mother",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 191,
+      "text": "To not reveal the nakedness of the wife of the father, even though she is not his mother",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 192,
+      "text": "To not reveal the nakedness of his sister, from any angle that she is his sister",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 193,
+      "text": "To not reveal the nakedness of the daughter of the son",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 194,
+      "text": "To not reveal the nakedness of the daughter of the daughter",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 195,
+      "text": "To not reveal the nakedness of the daughter",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 196,
+      "text": "To not uncover the nakedness of his sister from the father, and she is the daughter of the wife of the father",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 197,
+      "text": "To not reveal the nakedness of the sister of the father",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 198,
+      "text": "The nakedness of the sister of your mother you shall not reveal",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 199,
+      "text": "The nakedness of the brother of your father you shall not reveal",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 200,
+      "text": "The nakedness of the wife of the brother of your father, you shall not reveal",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 201,
+      "text": "The nakedness of your daughter in law you shall not reveal",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 202,
+      "text": "The nakedness of the wife of your brother you shall not reveal",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 203,
+      "text": "The nakedness of a woman and her daughter, you shall not reveal",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 204,
+      "text": "The nakedness of a woman and the daughter of her son",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 205,
+      "text": "To not reveal the nakedness of a woman and the daughter of her daughter",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 206,
+      "text": "The nakedness of a woman and her sister",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 207,
+      "text": "To not have intercourse with a menstruant woman",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 208,
+      "text": "That we should not give from our seed to Molekh",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 209,
+      "text": "For a man to not have intercourse with males",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 210,
+      "text": "To not lay with a beast",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 211,
+      "text": "That women not lay with the beasts",
+      "parsha": "Achrei Mot",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 212,
+      "text": "The commandment of the reverence of father and mother",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 213,
+      "text": "To not turn after the worship of idols, not in thought, not in speech and not in vision",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 214,
+      "text": "To not make idols not for himself and not for those besides him",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 215,
+      "text": "To not eat notar",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 216,
+      "text": "To leave over the corner of the field",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 217,
+      "text": "To not finish the corner in the field",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 218,
+      "text": "To leave the gleanings in the field",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 219,
+      "text": "To not take the sheaves that fall at the time of the harvesting",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 220,
+      "text": "The commandment of leaving over the corner of the vineyard",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 221,
+      "text": "To not finish the corner of the vineyard",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 222,
+      "text": "The commandment of leaving the peret of the vineyard",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 223,
+      "text": "To not gather the peret of the vineyard",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 224,
+      "text": "To not steal any money",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 225,
+      "text": "That we do not disavow money that is in our hand from another",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 226,
+      "text": "To not swear about the denial of money",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 227,
+      "text": "To not swear falsely",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 228,
+      "text": "To not oppress",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 229,
+      "text": "To not rob",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 230,
+      "text": "To not delay the wage of a wageworker",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 231,
+      "text": "To not curse an Israelite, whether a man or a woman",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 232,
+      "text": "To not make an innocent one stumble on the way",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 233,
+      "text": "To not vitiate justice",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 234,
+      "text": "To not honor a great person in judgment",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 235,
+      "text": "The commandment to judge with righteousness",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 236,
+      "text": "To not spy",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 237,
+      "text": "To not stand over the blood of neighbors",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 238,
+      "text": "To not hate brothers",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 239,
+      "text": "The commandment of rebuke to an Israelite who does not behave properly",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 240,
+      "text": "To not whiten the face of an Israelite",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 241,
+      "text": "To not avenge",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 242,
+      "text": "To not begrudge",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 243,
+      "text": "The commandment of love of Israel",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 244,
+      "text": "To not mate a beast, a species with not its species",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 245,
+      "text": "To not sow seeds of forbidden mixtures and not graft in any place in the Land",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 246,
+      "text": "To not eat orlah",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 247,
+      "text": "The commandment of the fourth year plant",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 248,
+      "text": "To not eat or to drink in the way of a glutton and a drunkard",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 249,
+      "text": "To not divine",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 250,
+      "text": "To not soothsay",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 251,
+      "text": "To not encircle the corner of the head",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 252,
+      "text": "To not destroy the corner of the beard",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 253,
+      "text": "That we not imprint an imprinted tattoo into our flesh",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 254,
+      "text": "The commandment of awe for the Temple",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 255,
+      "text": "To not do an act of ov",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 256,
+      "text": "To not do an act of yida'aoni",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 257,
+      "text": "The commandment to honor sages",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 258,
+      "text": "To not cheat in measures, and all measures are included",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 259,
+      "text": "The commandment of having just scales, weights and measures",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 260,
+      "text": "To not curse father and mother",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 261,
+      "text": "The commandment to burn one who is liable for burning",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 262,
+      "text": "To not follow the practices of the gentiles",
+      "parsha": "Kedoshim",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 263,
+      "text": "That a common priest not become defiled with a dead body except for the relatives elucidated in Scripture",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 264,
+      "text": "The commandment of the matter of the impurity of the priests for their relatives, and included in it is that each one in Israel should mourn for their six relatives the identity of which is well known",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 265,
+      "text": "That a priest who immersed that day not serve until his sun sets",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 266,
+      "text": "That a priest not marry a licentious woman",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 267,
+      "text": "That a priest not marry a profaned woman",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 268,
+      "text": "That a priest not marry a divorcee",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 269,
+      "text": "The commandment of sanctifying the seed of Aharon",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 270,
+      "text": "That a high priest not enter the tent of a dead body",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 271,
+      "text": "That the high priest not become impure with any impurity",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 272,
+      "text": "The commandment of a high priest to marry a virgin maiden",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 273,
+      "text": "That a high priest not marry a widow",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 274,
+      "text": "That a high priest not have intercourse with a widow",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 275,
+      "text": "That a priest with a blemish not serve in the Temple",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 276,
+      "text": "That a priest with a transient blemish not serve",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 277,
+      "text": "That one with a blemish not enter the entire sanctuary",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 278,
+      "text": "That an impure priest not serve",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 279,
+      "text": "That an impure priest not eat priestly tithe",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 280,
+      "text": "That no foreigner eat priestly tithe",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 281,
+      "text": "That the boarder of a priest and the hired worker not eat priestly tithe",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 282,
+      "text": "That an uncircumcised one not eat priestly tithe",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 283,
+      "text": "That a profaned woman not eat from the holy",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 284,
+      "text": "To not eat tevel",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 285,
+      "text": "That we not consecrate animals with blemishes for the altar",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 286,
+      "text": "The commandment of the sacrifice being unblemished",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 287,
+      "text": "That we not place a blemish upon consecrated animals",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 288,
+      "text": "That we not sprinkle blood of an animal with a blemish on the altar",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 289,
+      "text": "That we not slaughter an animal with a blemish for the sake of a sacrifice",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 290,
+      "text": "That we not incinerate the entrails of animals with blemishes",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 291,
+      "text": "Not to castrate one of all of the species",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 292,
+      "text": "Not to sacrifice a sacrifice that is one with a blemish from the hand of the stranger",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 293,
+      "text": "The commandment of a sacrifice that it be from eight days and above",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 294,
+      "text": "To not slaughter a beast and its child on one day",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 295,
+      "text": "That we not do anything through which the name of the Heavens is profaned among people",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 296,
+      "text": "The commandment of sanctification of the Name",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 297,
+      "text": "The commandment of resting on the first day of Pesach",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 298,
+      "text": "To not do work on the first day of Pesach",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 299,
+      "text": "The commandment of the additional sacrifices all of the seven days of Pesach",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 300,
+      "text": "The commandment of resting on the seventh day of Pesach",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 301,
+      "text": "To not do work on the seventh day of Pesach",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 302,
+      "text": "The commandment of the sacrifice of the omer of barley",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 303,
+      "text": "To not eat from the new grain before the end of the sixteenth of Nissan",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 304,
+      "text": "To not eat roasted grain from the new grain until that day",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 305,
+      "text": "To not eat fresh grain from the new grain until that day",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 306,
+      "text": "The commandment of counting the omer",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 307,
+      "text": "The commandment of the sacrifice of the new meal offering from wheat on the day of Shavuot",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 308,
+      "text": "The commandment of resting from work on the day of Shavuot",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 309,
+      "text": "To not do work on the day of the holiday of Shavuot",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 310,
+      "text": "The commandment of resting on the day of Rosh Hashanah",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 311,
+      "text": "To not do work on the first day of Tishrei",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 312,
+      "text": "The commandment of the additional sacrifice on the day of Rosh Hashanah",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 313,
+      "text": "The commandment of the fast on the tenth day of Tishrei",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 314,
+      "text": "The commandment of the additional sacrifice of Yom Kippur",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 315,
+      "text": "To not do work on the tenth of Tishrei",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 316,
+      "text": "To not eat and drink on Yom Kippur",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 317,
+      "text": "The commandment of resting from work on Yom Kippur",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 318,
+      "text": "The commandment of resting on the first day of the holiday of Sukkot",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 319,
+      "text": "To not do work on the first day of the holiday of Sukkot",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 320,
+      "text": "The commandment of the additional sacrifice on each day of the seven days of Sukkot",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 321,
+      "text": "The commandment of resting from work on the eighth day of Sukkot",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 322,
+      "text": "The commandment of the additional sacrifice on the eighth day of Sukkot, which is called Shemini Atseret",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 323,
+      "text": "To not do work on the day of the holiday of Shemini Atseret",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 324,
+      "text": "The commandment of taking the lulav",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 325,
+      "text": "The commandment of sitting in a sukkah",
+      "parsha": "Emor",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 326,
+      "text": "That we not work the land on the seventh year",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 327,
+      "text": "That we also not do work with the trees",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 328,
+      "text": "That we not harvest the aftergrowth on the seventh year",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 329,
+      "text": "That we not gather the fruit of the trees in the seventh year in the manner that we gather them in every year",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 330,
+      "text": "The commandment of counting the seven cycles of seven years",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 331,
+      "text": "The commandment of blowing the shofar on Yom Yippur of the Jubilee",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 332,
+      "text": "The commandment of the sanctification of the Jubilee year",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 333,
+      "text": "That we not work the land on the Jubilee year",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 334,
+      "text": "To not harvest the aftergrowth of the produce of the Jubilee year",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 335,
+      "text": "To not gather the fruits of the trees on the Jubilee year in the manner that we gather them in other years",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 336,
+      "text": "The commandment of adjudicating between the buyer and the seller",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 337,
+      "text": "To not mistreat in buying and selling",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 338,
+      "text": "To not mistreat any Israelite with words",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 339,
+      "text": "That we not sell a field in the Land of Israel in perpetuity",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 340,
+      "text": "The commandment of returning land to its owners on the Jubilee",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 341,
+      "text": "The law of redemption of houses of walled cities until the completion of a year",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 342,
+      "text": "To not change the open areas of the Levites",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 343,
+      "text": "To not lend with interest to an Israelite",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 344,
+      "text": "That we not make a Hebrew slave perform demeaning work, like the work of a Canaanite slave",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 345,
+      "text": "That we not sell a Hebrew slave upon the auctioning stone",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 346,
+      "text": "To not make a Hebrew slave perform oppressive work",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 347,
+      "text": "The commandment of work with a Canaanite slave forever",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 348,
+      "text": "To not allow a gentile to work a Hebrew slave sold to him",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 349,
+      "text": "That we not prostrate ourselves on a figured stone, even to God",
+      "parsha": "Behar",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 350,
+      "text": "The commandment that one who appraises a man give the value delineated in the Torah",
+      "parsha": "Bechukotai",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 351,
+      "text": "To not exchange consecrated things",
+      "parsha": "Bechukotai",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 352,
+      "text": "The commandment of the one who exchanges the beast of a sacrifice with another beast, such that both of them be consecrated",
+      "parsha": "Bechukotai",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 353,
+      "text": "The commandment of the appraisal of a beast, such that one give according to what the priest appraises",
+      "parsha": "Bechukotai",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 354,
+      "text": "The commandment of appraising houses, such that he give the appraisal that the priest appraises and the addition of a fifth",
+      "parsha": "Bechukotai",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 355,
+      "text": "The commandment of appraising a field, that he give the appraisal specified in the section of the Torah",
+      "parsha": "Bechukotai",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 356,
+      "text": "To not change the consecrated from a sacrifice to a sacrifice",
+      "parsha": "Bechukotai",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 357,
+      "text": "The commandment of the law of one who dedicates from his properties, that it is of the priests",
+      "parsha": "Bechukotai",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 358,
+      "text": "That owners that dedicated land not sell it, but that it rather be given to the priests",
+      "parsha": "Bechukotai",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 359,
+      "text": "That a dedicated field not be redeemed",
+      "parsha": "Bechukotai",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 360,
+      "text": "The commandment of the tithe of pure beasts every year",
+      "parsha": "Bechukotai",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "positive"
+    },
+    {
+      "id": 361,
+      "text": "To not sell the tithe of beasts, but rather that it be eaten in Jerusalem",
+      "parsha": "Bechukotai",
+      "book": "Vayikra",
+      "bookEn": "Leviticus",
+      "type": "negative"
+    },
+    {
+      "id": 362,
+      "text": "The commandment to send the impure out of the camp of the Divine Presence",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 363,
+      "text": "That an impure person not enter the entire Temple",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 364,
+      "text": "The commandment of confession of sin",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 365,
+      "text": "The commandment of the suspected adulteress for the husband to bring her to the priest and that he do to her according to the statute that is written",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 366,
+      "text": "That we not put oil on the sotah sacrifice",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 367,
+      "text": "Not to place frankincense on the sotah sacrifice",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 368,
+      "text": "That the nazirite not drink wine or all types of spirits",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 369,
+      "text": "That the nazirite not eat damp grapes",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 370,
+      "text": "That the nazirite not eat raisins",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 371,
+      "text": "That the nazirite not eat the seeds of the grapes",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 372,
+      "text": "That the nazirite not eat the peel of the grapes",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 373,
+      "text": "That the nazirite not shave his hair",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 374,
+      "text": "The commandment of growing the hair of the nazirite",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 375,
+      "text": "That the nazirite not enter the tent of a dead body",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 376,
+      "text": "That the nazirite not become impure through a dead body or through other impurities",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 377,
+      "text": "The commandment of shaving the nazirite and bringing his sacrifices",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 378,
+      "text": "The commandment of the priestly blessing every day",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 379,
+      "text": "The commandment of carrying the Ark on the shoulder",
+      "parsha": "Nasso",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 380,
+      "text": "The commandment of the second Pesach on the fourteenth of Iyar",
+      "parsha": "Beha'alotcha",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 381,
+      "text": "The commandment that the second Pesach offering be eaten with matsot and marror",
+      "parsha": "Beha'alotcha",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 382,
+      "text": "Not to leave any meat from the Pesach Sheni sacrifice to its morrow",
+      "parsha": "Beha'alotcha",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 383,
+      "text": "Not to break a bone from the bones of the Pesach Sheni sacrifice",
+      "parsha": "Beha'alotcha",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 384,
+      "text": "The commandment of blowing the trumpets in the Temple and in war",
+      "parsha": "Beha'alotcha",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 385,
+      "text": "The commandment of challah",
+      "parsha": "Sh'lach",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 386,
+      "text": "The commandment of fringes",
+      "parsha": "Sh'lach",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 387,
+      "text": "To not wander after the thoughts of the heart and the vision of the eyes",
+      "parsha": "Sh'lach",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 388,
+      "text": "The commandment to guard the Temple",
+      "parsha": "Korach",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 389,
+      "text": "That the priests not be involved in the service of the Levites and the Levites in the service of the priests",
+      "parsha": "Korach",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 390,
+      "text": "That a foreigner not serve in the Temple",
+      "parsha": "Korach",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 391,
+      "text": "To not nullify the guarding of the Temple",
+      "parsha": "Korach",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 392,
+      "text": "The commandment of redeeming the firstborn of a man",
+      "parsha": "Korach",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 393,
+      "text": "To not redeem the firstborn of a pure animal",
+      "parsha": "Korach",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 394,
+      "text": "The commandment of the service of the Levites in the Temple",
+      "parsha": "Korach",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 395,
+      "text": "The commandment of the first tithe",
+      "parsha": "Korach",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 396,
+      "text": "The commandment of the Levites to give a tithe from the tithe",
+      "parsha": "Korach",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 397,
+      "text": "The commandment of the red heifer",
+      "parsha": "Chukat",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 398,
+      "text": "The commandment of the impurity of a dead body",
+      "parsha": "Chukat",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 399,
+      "text": "The Commandment of the niddah waters which render the pure, impure and only purify someone impure from the impurity of a dead body",
+      "parsha": "Chukat",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 400,
+      "text": "The commandment of the laws of inheritance",
+      "parsha": "Pinchas",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 401,
+      "text": "The commandment of the regular sacrifices daily",
+      "parsha": "Pinchas",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 402,
+      "text": "The commandment of the additional sacrifice of Shabbat",
+      "parsha": "Pinchas",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 403,
+      "text": "The commandment of the additional sacrifice on each and every month",
+      "parsha": "Pinchas",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 404,
+      "text": "The commandment of the additional sacrifice on the day of the festival of Shavuot",
+      "parsha": "Pinchas",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 405,
+      "text": "The commandment of shofar on Rosh Hashanah",
+      "parsha": "Pinchas",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 406,
+      "text": "The commandment of the law of the abrogation of vows",
+      "parsha": "Matot",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 407,
+      "text": "That we not profane our words from vows",
+      "parsha": "Matot",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 408,
+      "text": "The commandment on Israel to give cities within which the Levites may dwell, and they shelter",
+      "parsha": "Masei",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 409,
+      "text": "To not kill someone liable before he is brought to justice",
+      "parsha": "Masei",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 410,
+      "text": "The commandment on the court to send one who smites a soul inadvertently from his city to the cities of refuge and upon the killer himself to go there",
+      "parsha": "Masei",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "positive"
+    },
+    {
+      "id": 411,
+      "text": "That the witness not issue a ruling in the case that he is testifying about in capital punishments",
+      "parsha": "Masei",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 412,
+      "text": "Not to take ransom to save the murderer from the death penalty",
+      "parsha": "Masei",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 413,
+      "text": "Not to take ransom from one liable for exile to exempt him from exile",
+      "parsha": "Masei",
+      "book": "Bamidbar",
+      "bookEn": "Numbers",
+      "type": "negative"
+    },
+    {
+      "id": 414,
+      "text": "Not to appoint a judge that does not know the laws of the Torah",
+      "parsha": "Devarim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 415,
+      "text": "That a judge not fear in judgment",
+      "parsha": "Devarim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 416,
+      "text": "Not to desire the money of your friend",
+      "parsha": "Vaetchanan",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 417,
+      "text": "The commandment of the unification of God",
+      "parsha": "Vaetchanan",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 418,
+      "text": "The commandment of loving God",
+      "parsha": "Vaetchanan",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 419,
+      "text": "The commandment of Torah study",
+      "parsha": "Vaetchanan",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 420,
+      "text": "The law of the recitation of Shema morning and evening",
+      "parsha": "Vaetchanan",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 421,
+      "text": "The commandment of the tefillin of the arm",
+      "parsha": "Vaetchanan",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 422,
+      "text": "The commandment of the tefillin of the head",
+      "parsha": "Vaetchanan",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 423,
+      "text": "To affix a mezuzah on entrances",
+      "parsha": "Vaetchanan",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 424,
+      "text": "To not test a true prophet more than is necessary",
+      "parsha": "Vaetchanan",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 425,
+      "text": "The commandment of killing the seven nations",
+      "parsha": "Vaetchanan",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 426,
+      "text": "To not favor or have mercy on an idolater",
+      "parsha": "Vaetchanan",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 427,
+      "text": "To not marry with idolaters",
+      "parsha": "Vaetchanan",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 428,
+      "text": "To not derive benefit from the coverings of idolatry and from its auxiliaries",
+      "parsha": "Eikev",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 429,
+      "text": "To not benefit from an offering to idolatry",
+      "parsha": "Eikev",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 430,
+      "text": "To bless God after eating food",
+      "parsha": "Eikev",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 431,
+      "text": "The commandment of loving the strangers",
+      "parsha": "Eikev",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 432,
+      "text": "The commandment of fearing God",
+      "parsha": "Eikev",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 433,
+      "text": "The commandment of prayer",
+      "parsha": "Eikev",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 434,
+      "text": "To cling to Torah sages",
+      "parsha": "Eikev",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 435,
+      "text": "To swear in His name, may He be blessed, truthfully",
+      "parsha": "Eikev",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 436,
+      "text": "To destroy idolatry and its auxiliaries",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 437,
+      "text": "Not to destroy things upon which His name, may He be blessed, are called",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 438,
+      "text": "That one brings all of his vows on the first festival",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 439,
+      "text": "Not to sacrifice a sacrifice outside of the Temple yard",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 440,
+      "text": "The commandment to sacrifice all the sacrifices in the Choice House",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 441,
+      "text": "To redeem consecrated things upon which a blemish developed",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 442,
+      "text": "To not eat from the second tithe of grain outside of Jerusalem",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 443,
+      "text": "To not eat the second tithe of wine outside of Jerusalem",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 444,
+      "text": "To not eat the second tithe of oil outside of Jerusalem",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 445,
+      "text": "To not eat an unblemished firstborn animal outside of Jerusalem",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 446,
+      "text": "To not eat higher level consecrated foods outside of the Temple yard",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 447,
+      "text": "To not eat meat of a burnt offering",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 448,
+      "text": "To not eat lower level consecrated foods before the sprinkling of the bloods",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 449,
+      "text": "That the priest not eat the first fruits before their placement in the Temple yard",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 450,
+      "text": "To not forsake the Levite, from giving him his gifts",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 451,
+      "text": "The commandment of slaughter",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 452,
+      "text": "To not eat a limb from the living",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 453,
+      "text": "To bring consecrated things to the Choice House",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 454,
+      "text": "To not add to the commandments and their understanding",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 455,
+      "text": "To not subtract from the commandments of the Torah",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 456,
+      "text": "To not listen to one who prophecies in the name of idolatry",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 457,
+      "text": "To not love the seducer",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 458,
+      "text": "To not leave the hatred towards the seducer",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 459,
+      "text": "To not save the seducer",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 460,
+      "text": "Not to advocate innocence for a seducer",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 461,
+      "text": "Not to refrain from advocating guilt for the seducer",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 462,
+      "text": "To not seduce one of Israel to worship idolatry",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 463,
+      "text": "The commandment of investigating the witnesses well",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 464,
+      "text": "The burning of an enticed city and to kill its people",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 465,
+      "text": "To not rebuild an enticed city",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 466,
+      "text": "To not benefit from the property of an enticed city",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 467,
+      "text": "To not gash ourselves, like the worshipers of idolatry",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 468,
+      "text": "To not make a bald spot for the dead",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 469,
+      "text": "To not eat from consecrated animals that have been disqualified",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 470,
+      "text": "To check the signs of a bird",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 471,
+      "text": "To not eat from the flying swarming creatures",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 472,
+      "text": "To not eat from the meat of a domesticated beast, a wild animal or a bird that has died by itself",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 473,
+      "text": "The commandment of the second tithe",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 474,
+      "text": "To separate the poor tithe",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 475,
+      "text": "To not claim a debt that the seventh year passed",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 476,
+      "text": "The commandment to press the foreigner",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 477,
+      "text": "That he release all of his loans in the seventh year",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 478,
+      "text": "To not steel his heart against the poor",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 479,
+      "text": "The commandment of charity",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 480,
+      "text": "To not refrain from lending before the sabbatical year",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 481,
+      "text": "To not send a Hebrew slave empty",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 482,
+      "text": "To endow him upon his leaving to freedom",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 483,
+      "text": "To not work with consecrated things",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 484,
+      "text": "To not shear the wool of consecrated animals",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 485,
+      "text": "To not eat chamets after midday",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 486,
+      "text": "To not leave over from the festive sacrifice to the third day",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 487,
+      "text": "To not sacrifice the Pesach sacrifice on the bamah of an individual",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 488,
+      "text": "The commandment to rejoice on the festivals",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 489,
+      "text": "To appear on the festivals in the Choice House",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 490,
+      "text": "To not go up for the festival without a sacrifice",
+      "parsha": "Re'eh",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 491,
+      "text": "To appoint judges and officers",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 492,
+      "text": "To not plant any tree idols",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 493,
+      "text": "To not erect a matsevah",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 494,
+      "text": "To not offer a sacrifice of an animal with a temporary blemish",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 495,
+      "text": "To listen to the voice of the court at all times",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 496,
+      "text": "To not stray from their words",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 497,
+      "text": "To appoint a king from Israel",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 498,
+      "text": "To not establish a foreign king over us",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 499,
+      "text": "That the king not amass many horses",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 500,
+      "text": "To not ever dwell in the Land of Egypt",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 501,
+      "text": "That the king not amass many wives",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 502,
+      "text": "That the king not amass much silver and gold for himself",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 503,
+      "text": "That the king write a second Torah scroll for himself",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 504,
+      "text": "That the tribe of Levi not inherit in the Land of Israel",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 505,
+      "text": "That the tribe of Levi not take a portion in the spoils",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 506,
+      "text": "To give the foreleg, the jaw and the maw to the priest",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 507,
+      "text": "To separate the great tithe for the priest",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 508,
+      "text": "To give the first shearing to the priest",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 509,
+      "text": "That the priests and the Levites work in the Temple in shifts",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 510,
+      "text": "To not engage in clairvoyance",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 511,
+      "text": "To not do magic",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 512,
+      "text": "To not invoke a charm",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 513,
+      "text": "To not ask a master of ov",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 514,
+      "text": "To not ask a yidaaoni",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 515,
+      "text": "To not inquire of the dead",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 516,
+      "text": "The commandment to heed a true prophet",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 517,
+      "text": "To not prophecy falsely",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 518,
+      "text": "To not prophesy in the name of idolatry",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 519,
+      "text": "That we not fear from the killing of a false prophet",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 520,
+      "text": "The commandment to prepare six cities of refuge",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 521,
+      "text": "To not show pity upon the killer or injurer",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 522,
+      "text": "To not remove a landmark",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 523,
+      "text": "To not establish a matter of testimony with one witness",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 524,
+      "text": "To do to the collusive witness like he colluded",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 525,
+      "text": "To not be terrified or to be afraid in war",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 526,
+      "text": "The commandment to anoint a priest for war",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 527,
+      "text": "To send peace to the cities that we besiege",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 528,
+      "text": "To not keep alive a soul of the seven nations",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 529,
+      "text": "To not destroy fruit trees",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 530,
+      "text": "To behead the calf in the riverbed",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 531,
+      "text": "To not work or sow in that land",
+      "parsha": "Shoftim",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 532,
+      "text": "To execute the law of the one of beautiful form as is written in the Torah",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 533,
+      "text": "To not sell one of beautiful of form",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 534,
+      "text": "Not to make her serve after he has intercourse with her",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 535,
+      "text": "To hang one who is liable for hanging",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 536,
+      "text": "To not leave one that is hung overnight",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 537,
+      "text": "To bury him on the same day, and so too all the dead",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 538,
+      "text": "To return a lost item to an Israelite",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 539,
+      "text": "To not avoid his eyes from it",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 540,
+      "text": "To not leave the beast of his fellow falling under its load",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 541,
+      "text": "To load the load that has fallen together with his fellow",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 542,
+      "text": "That a woman should not wear the adornments of a man",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 543,
+      "text": "That a man should not wear the clothes of a woman",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 544,
+      "text": "To not take the mother upon the young",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 545,
+      "text": "To send away the mother bird if he takes it upon the young",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 546,
+      "text": "The commandment of a parapet",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 547,
+      "text": "To not leave a stumbling block",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 548,
+      "text": "To not plant forbidden mixtures in a vineyard",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 549,
+      "text": "To not eat forbidden mixtures of the vineyard",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 550,
+      "text": "To not do work with two species of animals",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 551,
+      "text": "To not wear shaatnez",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 552,
+      "text": "To marry a woman with a marriage contract and betrothal",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 553,
+      "text": "The commandment that the wife of one who \"puts out a bad name\" about her dwell with him forever",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 554,
+      "text": "That he should not divorce her all of his days",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 555,
+      "text": "The commandment upon the court to stone the one liable",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 556,
+      "text": "Not to punish one coerced into a sin",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 557,
+      "text": "The commandment on the rapist to marry the one he has raped",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 558,
+      "text": "That he not divorce her all of his days",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 559,
+      "text": "That a eunuch not marry a daughter of Israel",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 560,
+      "text": "That a mamzer should not marry a daughter of Israel",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 561,
+      "text": "That an Ammonite or a Moabite not enter the Congregation of the Lord",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 562,
+      "text": "Not to seek their peace in a war",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 563,
+      "text": "Not to distance an Edomite of the third generation from coming into the congregation",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 564,
+      "text": "To not distance an Egyptian of the third generation",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 565,
+      "text": "That one impure should not enter the Temple mount",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 566,
+      "text": "The commandment to set up a place in which to defecate",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 567,
+      "text": "The commandment to set up a spike to dig with",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 568,
+      "text": "Not to turn over a slave that fled from his master",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 569,
+      "text": "To not oppress a slave who has fled to us, from outside the Land, to the Land of Israel",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 570,
+      "text": "Not to have sexual relations with a woman without a marriage contract and betrothal",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 571,
+      "text": "Not to bring the fee of a prostitute or the price of a dog",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 572,
+      "text": "That the borrower not give interest to an Israelite",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 573,
+      "text": "To lend to the gentile with interest",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 574,
+      "text": "Not to delay his vows for more than three festivals",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 575,
+      "text": "To fulfill what has come out of his lips, as he vowed",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 576,
+      "text": "The commandment to allow the wageworker to eat from the attached produce upon which he is working",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 577,
+      "text": "That the worker not take into his hand more than his eating",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 578,
+      "text": "That the worker not eat during work time",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 579,
+      "text": "That one who wants to divorce his wife divorce her with a bill",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 580,
+      "text": "That he not bring back his ex wife from when she has married",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 581,
+      "text": "That a groom should not go out from his home the whole year, even for the needs of the community",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 582,
+      "text": "The commandment that a groom rejoice with his wife for one year",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 583,
+      "text": "That we not take as surety vessels in which life sustaining food is made",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 584,
+      "text": "To not detach signs of tzaraat",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 585,
+      "text": "To not take surety from a debtor by force",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 586,
+      "text": "To not prevent surety from its needy owner",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 587,
+      "text": "To return the surety to the owners at the time that he needs it",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 588,
+      "text": "To give the wage of a wageworker on its day",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 589,
+      "text": "That a relative not testify, one about the other",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 590,
+      "text": "To not sway the judgment of a stranger or an orphan",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 591,
+      "text": "To not take the garment of a widow as surety",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 592,
+      "text": "To leave what is forgotten to the poor",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 593,
+      "text": "To not go back to take what is forgotten",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 594,
+      "text": "The commandment to lash the evildoer",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 595,
+      "text": "To not increase in flogging him",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 596,
+      "text": "To not muzzle an animal at the time of its work",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 597,
+      "text": "That a levirate wife not marry another until she is released",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 598,
+      "text": "The commandment of levirate marriage",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 599,
+      "text": "The commandment of release",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 600,
+      "text": "The commandment to save the pursued with the life of the pursuer",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 601,
+      "text": "To not have concern about the pursuer",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 602,
+      "text": "To not hold over deficient weights and measures",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 603,
+      "text": "To remember what Amalek did to us",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 604,
+      "text": "To blot out his seed from the world",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 605,
+      "text": "To not forget what he did to us",
+      "parsha": "Ki Teitzei",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 606,
+      "text": "The commandment of recital over the first fruits",
+      "parsha": "Ki Tavo",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 607,
+      "text": "The commandment of declaration of tithes",
+      "parsha": "Ki Tavo",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 608,
+      "text": "To not eat the second tithe in bereavement",
+      "parsha": "Ki Tavo",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 609,
+      "text": "To not eat the second tithe in impurity",
+      "parsha": "Ki Tavo",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "negative"
+    },
+    {
+      "id": 610,
+      "text": "To only expend monies of the second tithe for eating and drinking",
+      "parsha": "Ki Tavo",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 611,
+      "text": "The commandment to walk in the ways of God",
+      "parsha": "Ki Tavo",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 612,
+      "text": "To gather all of Israel on the festival of Sukkot",
+      "parsha": "Vayeilech",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    },
+    {
+      "id": 613,
+      "text": "For everyone to write a Torah scroll for himself",
+      "parsha": "Vayeilech",
+      "book": "Devarim",
+      "bookEn": "Deuteronomy",
+      "type": "positive"
+    }
+  ]
+}

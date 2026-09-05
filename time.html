@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MITZ — A Rhythm of 613</title>
+    <meta
+      name="description"
+      content="Explore all 613 mitzvot by the rhythms of a day, week, month, year, lifetime, and longer cycles."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650;9..144,700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/time.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%2329221d'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='14' font-family='Georgia,serif' fill='%23d99a5e'%3EM%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <div class="paper-grain" aria-hidden="true"></div>
+
+    <header class="page-hero">
+      <nav class="topnav" aria-label="Main navigation">
+        <a class="brand-mark" href="index.html">MITZ</a>
+        <div class="topnav-links">
+          <a href="index.html">Torah order</a>
+          <a href="time.html">Time map</a>
+          <a href="siddur.html">Siddur</a>
+          <a href="#all-mitzvot">All 613</a>
+        </div>
+      </nav>
+
+      <div class="hero-copy">
+        <p class="eyebrow">A rhythm of mitzvot</p>
+        <h1>One Torah.<br />Many times.</h1>
+        <p class="hero-lede">
+          See the 613 through the shape of lived time—from what can meet an ordinary
+          day to Shabbat, the festivals, a lifetime, and the Jubilee.
+        </p>
+        <a class="hero-link" href="#rhythm-overview">Enter the rhythm <span>↓</span></a>
+      </div>
+
+      <div class="hero-rings" aria-hidden="true">
+        <span class="ring ring-1"></span>
+        <span class="ring ring-2"></span>
+        <span class="ring ring-3"></span>
+        <span class="ring ring-4"></span>
+        <span class="ring-center">613</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="overview" id="rhythm-overview" aria-labelledby="overview-title">
+        <div class="section-heading">
+          <p class="section-number">01</p>
+          <div>
+            <h2 id="overview-title">The rhythm</h2>
+            <p>Choose a timescale to focus the map, or keep all seven in view.</p>
+          </div>
+        </div>
+
+        <div class="rhythm-line" id="rhythm-line" role="list"></div>
+
+        <p class="method-note">
+          This is a study map, not a ruling on obligation. Applicability can depend on
+          person, place, Temple, and circumstance; each mitzvah is placed at one
+          primary learning rhythm so all 613 form one complete map.
+        </p>
+      </section>
+
+      <section class="wheel-section" id="nested-time" aria-labelledby="wheel-title">
+        <div class="section-heading wheel-heading">
+          <p class="section-number">02</p>
+          <div>
+            <h2 id="wheel-title">Circles of time</h2>
+            <p>
+              Each timescale has its own place in the atlas. Read along an orbit,
+              then follow the icons to its marked subsets.
+            </p>
+          </div>
+        </div>
+
+        <div class="wheel-toolbar">
+          <p id="wheel-selection" aria-live="polite">
+            Select any arc or activity band to see its mitzvot.
+          </p>
+          <button type="button" class="wheel-reset" id="wheel-reset">
+            Show the full map
+          </button>
+        </div>
+        <div id="time-wheel"></div>
+      </section>
+
+      <section class="collection" id="all-mitzvot" aria-labelledby="collection-title">
+        <div class="section-heading collection-heading">
+          <div class="heading-copy">
+            <p class="section-number">03</p>
+            <div>
+              <h2 id="collection-title">All 613</h2>
+              <p>Ordered within each group by first appearance in the Torah.</p>
+            </div>
+          </div>
+          <div class="sign-key" aria-label="Commandment type legend">
+            <span class="key-positive"><b>+</b> Do</span>
+            <span class="key-negative"><b>−</b> Refrain</span>
+          </div>
+        </div>
+
+        <div class="controls" aria-label="Filter mitzvot">
+          <label class="search-field">
+            <span class="sr-only">Search mitzvot</span>
+            <input
+              id="search"
+              type="search"
+              placeholder="Search name, text, number, book…"
+              autocomplete="off"
+            />
+          </label>
+          <div class="filter-group" role="group" aria-label="Positive or negative">
+            <button type="button" class="filter is-active" data-type="all">All</button>
+            <button type="button" class="filter" data-type="positive">+ Do</button>
+            <button type="button" class="filter" data-type="negative">− Refrain</button>
+          </div>
+          <button type="button" class="filter clear-filter" id="clear-filter">Clear</button>
+          <p class="result-count" id="result-count" aria-live="polite"></p>
+        </div>
+
+        <div class="rhythm-sections" id="rhythm-sections"></div>
+      </section>
+    </main>
+
+    <aside class="detail-drawer" id="detail-drawer" hidden>
+      <button class="drawer-backdrop" type="button" data-close aria-label="Close details"></button>
+      <article
+        class="drawer-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="drawer-title"
+      >
+        <button class="drawer-close" type="button" data-close aria-label="Close">×</button>
+        <p class="drawer-rhythm" id="drawer-rhythm"></p>
+        <p class="drawer-number" id="drawer-number"></p>
+        <h2 id="drawer-title"></h2>
+        <p class="drawer-full" id="drawer-full"></p>
+        <dl class="drawer-meta">
+          <div>
+            <dt>Sign</dt>
+            <dd id="drawer-type"></dd>
+          </div>
+          <div>
+            <dt>Torah order</dt>
+            <dd id="drawer-order"></dd>
+          </div>
+          <div>
+            <dt>Book</dt>
+            <dd id="drawer-book"></dd>
+          </div>
+          <div>
+            <dt>Parsha</dt>
+            <dd id="drawer-parsha"></dd>
+          </div>
+        </dl>
+        <div class="drawer-nav">
+          <button type="button" id="previous-mitzvah">← Previous</button>
+          <button type="button" id="next-mitzvah">Next →</button>
+        </div>
+      </article>
+    </aside>
+
+    <footer>
+      <a class="brand-mark" href="index.html">MITZ</a>
+      <p>613 mitzvot, viewed through sacred time.</p>
+    </footer>
+
+    <script type="module" src="js/time.js"></script>
+  </body>
+</html>

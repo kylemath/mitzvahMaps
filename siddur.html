@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MITZ — Custom Siddur</title>
+    <meta
+      name="description"
+      content="Build a custom siddur from open sources by answering ritual questions. Starts with weekday Shacharit."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,650;9..144,700&family=Manrope:wght@400;500;600;700&family=Noto+Serif+Hebrew:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/siddur.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231c1814'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='14' font-family='Georgia,serif' fill='%23c4a574'%3ES%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="top">
+      <nav class="topnav" aria-label="Main navigation">
+        <a class="brand-mark" href="index.html">MITZ</a>
+        <div class="topnav-links">
+          <a href="index.html">Torah order</a>
+          <a href="time.html">Time map</a>
+          <a class="is-current" href="siddur.html" aria-current="page">Siddur</a>
+        </div>
+      </nav>
+    </header>
+
+    <section id="wizard" class="wizard">
+      <div class="wizard-copy">
+        <p class="eyebrow">Open-source liturgy</p>
+        <h1>Make a siddur by choosing how you pray.</h1>
+        <p class="hero-lede">
+          A forking series of questions, then a checklist. Texts are pulled live
+          from Sefaria. Weekday Shacharit is first; a Sefardic kollel morning and
+          a Reform Saturday morning are the two poles.
+        </p>
+      </div>
+
+      <div class="wizard-grid">
+        <aside class="outline-panel" aria-label="Order of service">
+          <div id="outline-status"></div>
+          <ol id="outline-list"></ol>
+        </aside>
+
+        <div class="question-panel">
+          <div id="progress" class="progress" aria-label="Steps"></div>
+          <p id="step-kicker" class="sr-only"></p>
+          <div id="question" class="question"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="siddur-view" class="siddur-view" hidden>
+      <div class="siddur-toolbar">
+        <div class="toolbar-left">
+          <button type="button" class="btn btn-ghost" data-edit>Edit choices</button>
+        </div>
+        <div class="toolbar-right">
+          <button type="button" class="btn btn-ghost" data-settings>Type &amp; spacing</button>
+          <button type="button" class="btn btn-ghost" data-save>Save</button>
+          <button type="button" class="btn btn-ghost" data-load>Open</button>
+          <button type="button" class="btn btn-primary" data-print>Print</button>
+        </div>
+      </div>
+      <p id="siddur-toast" class="siddur-toast" hidden></p>
+      <div class="siddur-layout">
+        <aside class="toc-panel" aria-label="Table of contents">
+          <p class="outline-kicker">Contents</p>
+          <nav id="toc-nav"></nav>
+        </aside>
+        <article class="siddur-book" id="siddur-book">
+          <header id="siddur-cover" class="siddur-cover"></header>
+          <div id="siddur-body" class="siddur-body"></div>
+        </article>
+      </div>
+    </section>
+
+    <dialog id="settings-dialog" class="sheet">
+      <form method="dialog" id="settings-form">
+        <h2>Type &amp; spacing</h2>
+        <p class="tiny">Hebrew and English only. These choices stay on this browser.</p>
+        <label class="setting">
+          <span>Hebrew size</span>
+          <input type="range" name="heSize" min="0.9" max="2.2" step="0.05" />
+        </label>
+        <label class="setting">
+          <span>English size</span>
+          <input type="range" name="enSize" min="0.8" max="1.6" step="0.05" />
+        </label>
+        <label class="setting">
+          <span>Line spacing</span>
+          <input type="range" name="lineHeight" min="1.3" max="2.4" step="0.05" />
+        </label>
+        <label class="setting">
+          <span>Paragraph spacing</span>
+          <input type="range" name="paraGap" min="0.3" max="1.8" step="0.05" />
+        </label>
+        <label class="setting">
+          <span>Hebrew typeface</span>
+          <select name="heFont">
+            <option value="frank">Frank Ruhl Libre</option>
+            <option value="noto">Noto Serif Hebrew</option>
+          </select>
+        </label>
+        <label class="setting">
+          <span>English typeface</span>
+          <select name="enFont">
+            <option value="manrope">Manrope</option>
+            <option value="fraunces">Fraunces</option>
+            <option value="georgia">Georgia</option>
+          </select>
+        </label>
+        <div class="step-nav">
+          <button type="submit" class="btn btn-primary" value="close">Done</button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog id="library-dialog" class="sheet">
+      <div class="sheet-head">
+        <h2>Saved siddurim</h2>
+        <button type="button" class="btn btn-ghost" data-close-library>Close</button>
+      </div>
+      <p class="tiny">Stored in this browser. You can also download a file and open it later.</p>
+      <ul id="library-list" class="library-list"></ul>
+      <div class="step-nav">
+        <button type="button" class="btn btn-primary" data-open-file>Open a file</button>
+      </div>
+    </dialog>
+    <input id="siddur-file" type="file" accept="application/json,.json" hidden />
+
+    <footer class="site-footer">
+      <p>
+        MITZ · Siddur builder · liturgy from
+        <a href="https://www.sefaria.org" target="_blank" rel="noreferrer">Sefaria</a>
+        (CC-BY / public domain). Not a replacement for a community’s received book.
+      </p>
+    </footer>
+
+    <script type="module" src="js/siddur-app.js"></script>
+  </body>
+</html>

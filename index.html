@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MITZ — 613 Mitzvot</title>
+    <meta
+      name="description"
+      content="Organize and explore the 613 mitzvot in order of appearance in the Torah."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650;9..144,700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23171c22'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='14' font-family='Georgia,serif' fill='%23a85a2a'%3EM%3C/text%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <div class="atmosphere" aria-hidden="true"></div>
+
+    <header class="hero">
+      <nav class="topnav">
+        <a class="brand-mark" href="#explore">MITZ</a>
+        <div class="topnav-links">
+          <a href="#explore">Explore</a>
+          <a href="time.html">Time</a>
+          <a href="siddur.html">Siddur</a>
+          <a href="#list">List</a>
+          <a href="#map">Map</a>
+        </div>
+      </nav>
+
+      <div class="hero-stage">
+        <p class="brand-hero">MITZ</p>
+        <h1>613 commandments, in the order they appear.</h1>
+        <p class="hero-lede">
+          Dense, clickable layouts—negative left, positive right, Torah order
+          top to bottom. Pick a view and filter.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#explore">Start exploring</a>
+          <a class="btn btn-ghost" href="time.html">Explore by time</a>
+          <a class="btn btn-ghost" href="siddur.html">Build a siddur</a>
+          <a class="btn btn-ghost" href="#list">Browse the list</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="scroll-plane"></div>
+        <div class="scroll-glow"></div>
+      </div>
+    </header>
+
+    <section class="viz-section" id="explore">
+      <div class="section-intro">
+        <h2>Explore</h2>
+        <p data-viz-blurb>
+          Chunked into groups of ten in biblical order—open one decade at a time
+          to browse ~10 commandments.
+        </p>
+      </div>
+
+      <div class="controls" id="controls">
+        <label class="search-field">
+          <span class="sr-only">Search mitzvot</span>
+          <input
+            id="search"
+            type="search"
+            placeholder="Search text, number, or parsha…"
+            autocomplete="off"
+          />
+        </label>
+
+        <div class="control-row">
+          <div class="chip-group" role="group" aria-label="Type filter">
+            <button class="chip is-active" data-type="all" type="button">All</button>
+            <button class="chip" data-type="positive" type="button">Positive</button>
+            <button class="chip" data-type="negative" type="button">Negative</button>
+          </div>
+
+          <label class="select-field">
+            <span>Book</span>
+            <select id="book-filter">
+              <option value="all">All books</option>
+            </select>
+          </label>
+
+          <button type="button" id="filter-reset" class="chip">Clear filters</button>
+        </div>
+
+        <div class="control-row scope-row" role="group" aria-label="Applicability scope">
+          <span class="mode-label">Show</span>
+          <label class="scope-toggle">
+            <input type="checkbox" id="show-land" checked />
+            <span>Land of Israel</span>
+          </label>
+          <label class="scope-toggle">
+            <input type="checkbox" id="show-temple" checked />
+            <span>Temple-era</span>
+          </label>
+          <span class="scope-hint">Temple ⊂ Land — uncheck to hide those subsets</span>
+        </div>
+
+        <div class="viz-modes-wrap" data-viz-modes role="group" aria-label="Layout mode"></div>
+
+        <p class="result-meta" id="result-meta" aria-live="polite"></p>
+      </div>
+
+      <div class="viz-stage" id="viz-stage">
+        <div class="viz-hud">
+          <p class="viz-crumb" data-viz-crumb>613 mitzvot</p>
+          <span class="viz-legend">
+            <span class="leg leg-neg">Negative</span>
+            <span class="leg leg-pos">Positive</span>
+          </span>
+        </div>
+        <div class="viz-canvas" data-viz-canvas></div>
+        <div class="viz-tooltip" data-viz-tooltip hidden></div>
+      </div>
+    </section>
+
+    <section class="map-section" id="map">
+      <div class="section-intro">
+        <h2>Across the five books</h2>
+        <p>Each bar shows how densely mitzvot appear as the Torah unfolds.</p>
+      </div>
+      <div class="book-map" id="book-map" role="list"></div>
+      <div class="constellation" id="constellation" aria-hidden="true"></div>
+    </section>
+
+    <section class="explore-list" id="list">
+      <div class="section-intro explore-head">
+        <div>
+          <h2>List view</h2>
+          <p>Same filters, readable in biblical order.</p>
+        </div>
+        <label class="select-field">
+          <span>Group by</span>
+          <select id="group-by">
+            <option value="order">Biblical order</option>
+            <option value="book">Book</option>
+            <option value="parsha">Parsha</option>
+            <option value="type">Positive / Negative</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="results" id="results"></div>
+    </section>
+
+    <aside class="drawer" id="drawer" hidden>
+      <div class="drawer-backdrop" data-close></div>
+      <div
+        class="drawer-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="drawer-title"
+      >
+        <button class="drawer-close" type="button" data-close aria-label="Close">
+          ×
+        </button>
+        <p class="drawer-kicker" id="drawer-kicker"></p>
+        <h3 id="drawer-title"></h3>
+        <p class="drawer-text" id="drawer-text"></p>
+        <dl class="drawer-meta">
+          <div>
+            <dt>Number</dt>
+            <dd id="drawer-id"></dd>
+          </div>
+          <div>
+            <dt>Type</dt>
+            <dd id="drawer-type"></dd>
+          </div>
+          <div>
+            <dt>Book</dt>
+            <dd id="drawer-book"></dd>
+          </div>
+          <div>
+            <dt>Parsha</dt>
+            <dd id="drawer-parsha"></dd>
+          </div>
+        </dl>
+        <div class="drawer-nav">
+          <button type="button" id="prev-mitzvah">Previous</button>
+          <button type="button" id="next-mitzvah">Next</button>
+        </div>
+      </div>
+    </aside>
+
+    <footer class="site-footer">
+      <p>MITZ — 613 mitzvot in biblical order of appearance.</p>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
