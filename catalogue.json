@@ -3,7 +3,7 @@
   "title": "Mitz",
   "oneLiner": "Interactive web app for organizing and exploring the **613 mitzvot** in order of appearance in the Torah.",
   "kind": "project",
-  "status": "active",
+  "status": "published",
   "screenshot": "./screenshot.png",
   "server": {
     "type": "static",
